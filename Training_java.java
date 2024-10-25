@@ -94,7 +94,7 @@ class Training_java {
 }
 // ======================================================================
 // TO FIND TH BIGGEST OF THREE NUMBERS
-// ======================================================
+// =====================================================================
  public class Training_java {
     public static void main(String[] args) 
     {
@@ -107,7 +107,7 @@ class Training_java {
         System.out.println("The greatest number is: " + greatest);
     }
  }
-//  =============================================================
+//  ==========================================================================
 // to find the given number is perfect square
 import java.math.*;
 class Training_java{
@@ -123,5 +123,67 @@ class Training_java{
 
     }
 }
-// ===================================================================
+// ===============================================================================
+// to print all natural numbers
+class Training_java{
+    public static void main(String[]args){
+        int i=0 ,n=10;
+        for(i=0;i<=n;i++){
+            System.out.println("natural number: "+i);
+        }
+    }
+}
+// ====================================================================================
+import java.util.Scanner;
+class Training_java{
+    public static void main(String[]args){
+        int i,a;
+        Scanner scan =new Scanner(System.in);
+        System.out.println("enter the a value: ");
+        a = scan.nextInt(); 
+        for(i=0;i<=a;i++){
+           if(i%2!=0){
+            System.out.println(i+"  This is odd");
+           }
+           else{
+            System.out.println(i+"  This is even");
+           }
+
+        }
+       
+    }
+}
+// ===================================================================================
+import java.util.Scanner;
+class Training_java{
+    public static void main(String[]args){
+        int i,a;
+        Scanner scan =new Scanner(System.in);
+        System.out.println("enter the a value: ");
+        a = scan.nextInt(); 
+        for(i=0;i<=a;i++){
+           if(i%2==0){
+            System.out.println(i+"  This is even");
+           }
+        //    else{
+        //     System.out.println(i+"  This is odd");
+        //    }
+
+        }
+       
+    }
+}
+// ===================================================================================
+import java.util.Scanner;
+class Training_java{
+    public static void main(String[]args){
+        int i,n=3,fact=1;
+        for(i=1;i<=n;i++){
+            fact=fact*i;
+        }
+        System.out.println("fact of the number is : " +fact);
+    }
+}
+// ==========================================================================
+
 
